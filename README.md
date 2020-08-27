@@ -6,7 +6,7 @@ In the context of this project I built a quotes guessing game. When run, our pro
 
 There are 3 files in the repo. The file __web_scraping_initial.py__ provides a first implementation, whereas the files __csv_scraper.py__ and __csv_quote_game.py__, utilised in conjunction with each other, provide a refactored, optimised solution. More specifically, in the latter case I refactored the quotes game initial script by defining functions and by using the CSV library so that we do not need to scrape every time at the beginning of the process. We instead run the `csv_scraper` file. This will generate a `quotes.csv` file in which the scraped data is saved so that we can recall it whenever we want (we moved this functionality to a separate file because we do not want to be saving to a CSV file every time). We will finally utilise the `csv_quote_game` file to play the game.
 
-How to run:
+<ins>How to run:</ins>
 
    - Install the `Requests` module [(pypi link)](https://pypi.org/project/requests/).
      
